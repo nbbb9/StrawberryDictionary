@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="딸기백과"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StrawBerry"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/SplashTheme"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity android:name=".mainhomeActivity" android:label="Mainhome 액티비티" />
+        <activity android:name=".SecondActivity" android:label="Second 액티비티" />
+        <activity android:name=".ComunityActivity" android:label="Comunity 액티비티" />
+        <activity android:name=".StoreActivity" android:label="Store 액티비티" />
+        <activity android:name=".UserActivity" android:label="User 액티비티" />
+        <activity android:name=".CctvActivity" android:label="Cctv 액티비티" />
+        <activity android:name=".DangercamActivity" android:label="Danger 액티비티" />
+        <activity android:name=".PaymentActivity" android:label="Payment 액티비티" />
+    </application>
+
+</manifest>

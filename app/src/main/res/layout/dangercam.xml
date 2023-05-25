@@ -1,0 +1,136 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DangercamActivity"
+    tools:ignore="ScrollViewCount">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="딸기가 위험에 처했습니다!!"
+                android:fontFamily="@font/rfont"
+                android:textStyle="bold"
+                android:textColor="#FF0000"
+                android:textSize="32dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:textSize="30dp"
+                android:fontFamily="@font/rfont"
+                android:text="41번 딸기 CAM"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="351dp"
+                android:layout_height="353dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/berry_white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="발견된 병명>>"
+                    android:fontFamily="@font/rfont"
+                    android:textStyle="bold"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="흰가루병"
+                    android:fontFamily="@font/rfont"
+                    android:textStyle="bold"
+                    android:textColor="#FF0000"
+                    android:textSize="30dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="해결방안>>"
+                    android:fontFamily="@font/rfont"
+                    android:textStyle="bold"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/rfont"
+                    android:text="이병 잔재물 및 하엽을 제거하세요\n계통이 다른 약제 교호 살포하세요\n저항성 발현 약제는 사용하지 마세요"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/rfont"
+                    android:gravity="center"
+                    android:text="<참고 사이트 이동하기>"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:textColor="#03A9F4"
+                    android:fontFamily="@font/rfont"
+                    android:textStyle="bold"
+                    android:text="https://www.cropscience.bayer.co.kr/Crop/Strawberry/Fungi-and-Solution"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

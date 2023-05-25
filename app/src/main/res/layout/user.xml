@@ -1,0 +1,113 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="사용자 정보 및 설정"
+                android:fontFamily="@font/rfont"
+                android:textStyle="bold"
+                android:textSize="32dp" />
+
+            <LinearLayout
+                android:layout_width="19dp"
+                android:layout_height="match_parent" />
+
+            <ImageButton
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:scaleType="centerCrop"
+                android:id="@+id/setBtn"
+                android:src="@drawable/setting" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="닉네임>>     "
+                        android:fontFamily="@font/rfont"
+                        android:textStyle="bold"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/rfont"
+                        android:text="              홍길동"/>
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="348dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="29dp"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:layout_width="29dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/no_ad"/>
+
+            <Button
+                android:layout_width="233dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/noadpayBtn"
+                android:fontFamily="@font/rfont"
+                android:text="광고제거및 구독하러가기"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="29dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/no_ad"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

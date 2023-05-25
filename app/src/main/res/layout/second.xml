@@ -1,0 +1,204 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="딸기 사전"
+                android:fontFamily="@font/rfont"
+                android:textStyle="bold"
+                android:textSize="32dp" />
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:fontFamily="@font/rfont"
+                    android:text="다른 질병 보러 가기>>"
+                    android:textStyle="bold"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="@color/white"
+                android:scaleType="fitCenter"
+                android:src="@drawable/dictionary" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="367dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="209dp"
+                    android:layout_height="358dp"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/berry_ill" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="354dp"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:fontFamily="@font/rfont"
+                        android:gravity="center"
+                        android:text="시들음병"
+                        android:textColor="#D81B60"
+                        android:textSize="31dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:fontFamily="@font/rfont"
+                        android:text="공기를 통해 전염됩니다."
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:fontFamily="@font/rfont"
+                        android:text="일교차가 심할 때 발병합니다"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:fontFamily="@font/rfont"
+                        android:text="고토와 인산이 부족한 토양에서 발병합니다."
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:fontFamily="@font/rfont"
+                        android:text="병든 식물체에서 월동합니다."
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="59dp"
+                        android:layout_margin="5dp"
+                        android:fontFamily="@font/rfont"
+                        android:text="자세히 보러가기"
+                        android:textSize="13dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="24dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/secondround"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/rfont"
+                    android:text="특징>>"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:fontFamily="@font/rfont"
+                    android:text="1. 분생포자로 기공에 침입. \n2. 표피세포에 흡기라는 기관을 형성 후 기생. \n3. 잎,줄기에 흰가루 형태의 반점 형성.\n4. 오래된 잎은 갈색으로 고사." />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_margin="5dp"
+                    android:fontFamily="@font/rfont"
+                    android:textStyle="bold"
+                    android:text="해결방안>>"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:fontFamily="@font/rfont"
+                    android:text="1. 이병 잔재물 및 하엽 제거.\n2.계통이 다른 약제 교호 살포.\n3. 저항성 발현 약제, 사용금지" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:fontFamily="@font/rfont"
+                    android:text="재발방지>>"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:fontFamily="@font/rfont"
+                    android:text="1. 개화기 이전에 방제 철저.\n2. 병 발병전, 발병초기 방제\n"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

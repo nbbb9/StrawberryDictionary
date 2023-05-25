@@ -1,0 +1,219 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".mainhomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="14dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/temperature" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="23℃"
+                android:fontFamily="@font/rfont"
+                android:textStyle="bold"
+                android:textColor="#E90909"
+                android:textSize="35dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/humidity" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="40%"
+                android:textStyle="bold"
+                android:fontFamily="@font/rfont"
+                android:textColor="#448AFF"
+                android:textSize="35dp" />
+
+            <LinearLayout
+                android:layout_width="52dp"
+                android:layout_height="41dp" />
+
+            <ImageButton
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:id="@+id/cctvBtn"
+                android:scaleType="centerCrop"
+                android:background="@color/white"
+                android:src="@drawable/camera" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/rfont"
+            android:layout_margin="10dp"
+            android:text="현위치 >"
+            android:textStyle="bold"
+            android:textSize="32dp" />
+
+            <TextView
+                android:layout_width="236dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/rfont"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="경기도 남양주시 화도읍 수동면 도로명로 77 22번지"
+                android:textStyle="bold"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/rfont"
+                android:text="날씨 >"
+                android:textSize="32dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="66dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:src="@drawable/rainny" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:fontFamily="@font/rfont"
+                android:gravity="center"
+                android:text="비오고 흐림"
+                android:textSize="32dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="305dp"
+                android:background="@drawable/addround"
+                android:src="@drawable/ad" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:id="@+id/dicBtn"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:scaleType="fitCenter"
+                android:src="@drawable/dictionary" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:id="@+id/comuBtn"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:scaleType="fitCenter"
+                android:src="@drawable/comunity" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:id="@+id/homeBtn"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:scaleType="fitCenter"
+                android:gravity="center"
+                android:src="@drawable/home" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:id="@+id/storeBtn"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:scaleType="fitCenter"
+                android:src="@drawable/store" />
+
+            <ImageButton
+                android:id="@+id/userBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@color/white"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/user" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

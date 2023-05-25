@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="126dp"
+            android:layout_height="85dp" />
+
+
+        <ImageButton
+            android:id="@+id/dangerBtn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="#60FF0000"
+            android:scaleType="centerCrop"
+            android:src="@drawable/danger"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="347dp"
+        android:layout_height="310dp"
+        android:layout_gravity="center"
+        android:src="@drawable/vegetables" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:rotation="70"
+        android:orientation="vertical"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ddrBtn"
+        android:text="농린이백과"
+        android:fontFamily="@font/mainfont"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#388E3C"
+        android:textSize="70dp"
+        android:background = "@drawable/mainround"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:orientation="vertical" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="Created by 딸기넷"
+        android:textSize="15dp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
