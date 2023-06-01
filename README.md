@@ -36,7 +36,7 @@
 <img width="1225" alt="스크린샷 2023-05-27 오후 7 13 43" src="https://github.com/nbbb9/StrawberryDictionary/assets/113917104/7b6018f1-ee8a-47a3-85e7-4aaba1006b15">
 <img width="1229" alt="스크린샷 2023-05-27 오후 7 13 52" src="https://github.com/nbbb9/StrawberryDictionary/assets/113917104/ec0f2e18-e5bd-4821-b030-a0eb41710608">
 <과정 및 사진>
-![IMG_7766](https://github.com/nbbb9/StrawberryDictionary/assets/113917104/4a6203d6-7b6b-4faf-b5f6-93dffb114a33)
+![IMG_7772](https://github.com/nbbb9/StrawberryDictionary/assets/113917104/1ce51493-3f64-4642-902d-19ea073b207a)
 ![IMG_0122](https://github.com/nbbb9/StrawberryDictionary/assets/113917104/fcfd050b-ac1c-4cb7-8d02-5e75b0d4d6bd)
 ![IMG_0121](https://github.com/nbbb9/StrawberryDictionary/assets/113917104/ffcaae55-2601-49b2-82d1-813cdc689ae3)
 <img width="2560" alt="스크린샷 2022-12-15 오전 2 51 41" src="https://github.com/nbbb9/StrawberryDictionary/assets/113917104/bdf38b19-96a9-4455-b502-09b3e4dc3c43">
