@@ -2,7 +2,7 @@
 <소개>  
 어플리케이션은 농부에게 딸기를 비롯한 다양한 작물의 질병정보를 감지하여 알 수 있고 더 나아가 농부들의 커뮤니케이션을 위한 커뮤니티 기능, 다양한 물건을 사고 팔 수 있는 장터기능, 사전에 평소에도 작물의 다양한 질병정보를 학습할 수 있는 질병사전 기능 또한 마련되어 있습니다.
 <기술 설명>
-<img width="1228" alt="스크린샷 2023-05-27 오후 7 09 23" src="https://github.com/nbbb9/StrawberryDictionary/assets/113917104/7d1c9d87-e4ab-4a00-ad07-e70ac6bd9a96">
+<!--<img width="1228" alt="스크린샷 2023-05-27 오후 7 09 23" src="https://github.com/nbbb9/StrawberryDictionary/assets/113917104/7d1c9d87-e4ab-4a00-ad07-e70ac6bd9a96">-->
 <img width="1227" alt="스크린샷 2023-05-27 오후 7 09 32" src="https://github.com/nbbb9/StrawberryDictionary/assets/113917104/ee81d5ee-c212-4ca3-afa1-2bd4de3502fc">
 <img width="1227" alt="스크린샷 2023-05-27 오후 7 09 40" src="https://github.com/nbbb9/StrawberryDictionary/assets/113917104/107c8342-6adc-4ec8-85e6-ecfb8d8369c1">
 <img width="1226" alt="스크린샷 2023-05-27 오후 7 09 48" src="https://github.com/nbbb9/StrawberryDictionary/assets/113917104/87ad21c8-cdbc-4532-969f-a140a3c49d20">
@@ -32,9 +32,10 @@
 <img width="1227" alt="스크린샷 2023-05-27 오후 7 13 32" src="https://github.com/nbbb9/StrawberryDictionary/assets/113917104/46806dea-6972-478d-b1a5-24574fa66441">
 <img width="1225" alt="스크린샷 2023-05-27 오후 7 13 43" src="https://github.com/nbbb9/StrawberryDictionary/assets/113917104/7b6018f1-ee8a-47a3-85e7-4aaba1006b15">
 <img width="1229" alt="스크린샷 2023-05-27 오후 7 13 52" src="https://github.com/nbbb9/StrawberryDictionary/assets/113917104/ec0f2e18-e5bd-4821-b030-a0eb41710608">
+<!--
 <과정 및 사진>
 ![IMG_7772](https://github.com/nbbb9/StrawberryDictionary/assets/113917104/1ce51493-3f64-4642-902d-19ea073b207a)
 ![IMG_0122](https://github.com/nbbb9/StrawberryDictionary/assets/113917104/fcfd050b-ac1c-4cb7-8d02-5e75b0d4d6bd)
 ![IMG_0121](https://github.com/nbbb9/StrawberryDictionary/assets/113917104/ffcaae55-2601-49b2-82d1-813cdc689ae3)
-<img width="2560" alt="스크린샷 2022-12-15 오전 2 51 41" src="https://github.com/nbbb9/StrawberryDictionary/assets/113917104/bdf38b19-96a9-4455-b502-09b3e4dc3c43">
+<img width="2560" alt="스크린샷 2022-12-15 오전 2 51 41" src="https://github.com/nbbb9/StrawberryDictionary/assets/113917104/bdf38b19-96a9-4455-b502-09b3e4dc3c43">-->
 
